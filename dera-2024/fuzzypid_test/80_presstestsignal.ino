@@ -62,8 +62,7 @@ void pressStep(){
 //  }
 //  LastTimeStep = millis();
 //  unsigned long TimeDuration0 = 10000;
-//  unsigned long TimeDuration1 = 20000;
-//  unsigned long TimeDuration2 = 30000;
+//  unsigned long TimeDuration1 = 30000;
 //
 //  if (LastTimeStep - StartTimeStep  < TimeDuration0) {
 //    sp_press = 0;
@@ -71,10 +70,7 @@ void pressStep(){
 //  else if (LastTimeStep - StartTimeStep  < TimeDuration1) {
 //    sp_press = 60;
 //  }
-//  else if (LastTimeStep - StartTimeStep  < TimeDuration2) {
-//    sp_press = 60;
-//  }
-//  else if (LastTimeStep - StartTimeStep  > TimeDuration2) {
+//  else if (LastTimeStep - StartTimeStep  > TimeDuration1) {
 //    mode = 1;
 //  }
 //}
@@ -129,24 +125,16 @@ void pressStep(){
 //    modestep_press = false;
 //  }
 //  LastTimeStep = millis();
-//  unsigned long TimeDuration0 = 10000;
-//  unsigned long TimeDuration1 = 20000;
-//  unsigned long TimeDuration2 = 30000;
-//  unsigned long TimeDuration3 = 40000;
+//  unsigned long TimeDuration0 = 20000;
+//  unsigned long TimeDuration1 = 40000;
 //
 //  if (LastTimeStep - StartTimeStep  < TimeDuration0) {
 //    sp_press = -50;
 //  }
 //  else if (LastTimeStep - StartTimeStep  < TimeDuration1) {
-//    sp_press = -50;
-//  }
-//  else if (LastTimeStep - StartTimeStep  < TimeDuration2) {
 //    sp_press = -25;
 //  }
-//  else if (LastTimeStep - StartTimeStep  < TimeDuration3) {
-//    sp_press = -25;
-//  }
-//  else if (LastTimeStep - StartTimeStep  > TimeDuration3) {
+//  else if (LastTimeStep - StartTimeStep  > TimeDuration1) {
 //    mode = 1;
 //  }
 //}
